@@ -1,6 +1,6 @@
 {
   "name": "getallelements",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "get all html elements by one command ",
   "main": "getAllElements.js",
   "scripts": {

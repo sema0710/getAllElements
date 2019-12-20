@@ -1,7 +1,7 @@
 export const getAllElementById = ()=>{
     const all = document.querySelectorAll("*");
     let id_elements = {};
-    for(i of all){
+    for(let i of all){
         let id = i.id;
         if(id !== ""){
             id_elements[id] = i;
@@ -25,4 +25,17 @@ export const getAllElementByClass = ()=>{
         }   
     }
     return class_elements;
+}
+
+export const getAllElementByTagName = ()=>{
+    let tag_elements = {};
+    const all = document.querySelectorAll("*");
+    for(let i of all){
+        const tagName = i.tagName;
+        if(!tag_elements[tagName]){
+            tag_elements[tagName] = [];
+        }
+        tag_elements[tagName].push(i);
+    }
+    return tag_elements;
 }
