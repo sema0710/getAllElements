@@ -13,10 +13,10 @@ export const getAllElementById = ()=>{
 export const getAllElementByClass = ()=>{
     let class_elements = {};
     const all = document.querySelectorAll("*");
-    for(i of all){
+    for(let i of all){
         let Class = i.classList;
         if(Class.value !== ""){
-            for(j of Class){
+            for(let j of Class){
                 if(class_elements[j] === undefined){
                     class_elements[j] = [];
                 }

@@ -1,0 +1,24 @@
+{
+  "name": "getallelements",
+  "version": "1.0.0",
+  "description": "get all html elements by one command ",
+  "main": "getAllElements.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sema0710/getAllElements.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "getElementsById"
+  ],
+  "author": "sema0710",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sema0710/getAllElements/issues"
+  },
+  "homepage": "https://github.com/sema0710/getAllElements#readme"
+}
