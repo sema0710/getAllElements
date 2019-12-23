@@ -58,3 +58,6 @@ getAll.getAllElementByClass();
     ]
   }
 */
+
+
+getAll.getAllElementByTagName();
